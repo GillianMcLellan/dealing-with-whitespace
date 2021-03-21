@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box
-  font-family: "Crimson Text"
 }
 
 *, *::before, *::after {
@@ -15,7 +14,7 @@ h1 {
   padding-bottom: 0rem;
 }
 
-.first-paragraph {
+article > header > p {
   font-style: italic;
   font-size: 1.125rem;
   padding-left: 1.5rem;
@@ -26,9 +25,15 @@ h1 {
 }
 
 p {
-  font-family: "Crimson Text"
+  font-family: "Crimson Text";
 }
 
 blockquote {
   font-size: 1.5rem;
+  color: #555;
+}
+
+article > ol {
+padding: 0;
+list-style-type: lower-alpha;
 }
